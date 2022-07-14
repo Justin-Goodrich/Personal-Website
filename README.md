@@ -11,4 +11,4 @@ Personal website redesign for blog/portfolio purposes
 -tailwind.css
 
 ### deployment 
-- Amazon ecr and ecs
+- Amazon ECR and ECS

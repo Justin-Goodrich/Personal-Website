@@ -10,5 +10,5 @@ Personal website redesign for blog/portfolio purposes
 - next.js
 -tailwind.css
 
-### deployment 
+### Deployment 
 - Amazon ECR and ECS

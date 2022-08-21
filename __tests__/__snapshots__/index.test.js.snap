@@ -2,8 +2,64 @@
 
 exports[`HomePage renders correctly 1`] = `
 <div>
-  <div>
-    hello
+  <div
+    className="bg-offwhite"
+  >
+    <div
+      className="hidden md:flex justify-center"
+    >
+      <nav
+        className="hidden md:flex w-fit p-0.5 border-black border-2 rounded-3xl space-x-3 items-center 2xl:border-4 2xl:p-2 2xl:rounded-full"
+      >
+        <button
+          className="hidden border-black border-2 rounded-3xl text-2xl w-32 md:block lg:w-40 lg:text-2xl xl:w-48 xl:text-3xl 2xl:border-4 2xl:w-72 2xl:text-6xl 2xl:rounded-full"
+        >
+          HOME
+        </button>
+        <button
+          className="hidden border-black border-2 rounded-3xl text-2xl w-32 md:block lg:w-40 lg:text-2xl xl:w-48 xl:text-3xl 2xl:border-4 2xl:w-72 2xl:text-6xl 2xl:rounded-full"
+        >
+          SKILLS
+        </button>
+        <button
+          className="hidden border-black border-2 rounded-3xl text-2xl w-32 md:block lg:w-40 lg:text-2xl xl:w-48 xl:text-3xl 2xl:border-4 2xl:w-72 2xl:text-6xl 2xl:rounded-full"
+        >
+          PROJECTS
+        </button>
+        <button
+          className="hidden border-black border-2 rounded-3xl text-2xl w-32 md:block lg:w-40 lg:text-2xl xl:w-48 xl:text-3xl 2xl:border-4 2xl:w-72 2xl:text-6xl 2xl:rounded-full"
+        >
+          CONTACT
+        </button>
+      </nav>
+    </div>
   </div>
 </div>
+`;
+
+exports[`Navigation renders all buttons 1`] = `
+<nav
+  className="hidden md:flex w-fit p-0.5 border-black border-2 rounded-3xl space-x-3 items-center 2xl:border-4 2xl:p-2 2xl:rounded-full"
+>
+  <button
+    className="hidden border-black border-2 rounded-3xl text-2xl w-32 md:block lg:w-40 lg:text-2xl xl:w-48 xl:text-3xl 2xl:border-4 2xl:w-72 2xl:text-6xl 2xl:rounded-full"
+  >
+    HOME
+  </button>
+  <button
+    className="hidden border-black border-2 rounded-3xl text-2xl w-32 md:block lg:w-40 lg:text-2xl xl:w-48 xl:text-3xl 2xl:border-4 2xl:w-72 2xl:text-6xl 2xl:rounded-full"
+  >
+    SKILLS
+  </button>
+  <button
+    className="hidden border-black border-2 rounded-3xl text-2xl w-32 md:block lg:w-40 lg:text-2xl xl:w-48 xl:text-3xl 2xl:border-4 2xl:w-72 2xl:text-6xl 2xl:rounded-full"
+  >
+    PROJECTS
+  </button>
+  <button
+    className="hidden border-black border-2 rounded-3xl text-2xl w-32 md:block lg:w-40 lg:text-2xl xl:w-48 xl:text-3xl 2xl:border-4 2xl:w-72 2xl:text-6xl 2xl:rounded-full"
+  >
+    CONTACT
+  </button>
+</nav>
 `;

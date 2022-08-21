@@ -1,0 +1,29 @@
+{
+    "categories":[
+        {
+            "name":"home",
+            "icon":"",
+            "path":"/"
+        },
+        {
+            "name":"skills",
+            "icon":"",
+            "path":""
+        },
+        {
+            "name":"projects",
+            "icon":"",
+            "path":""
+        },
+        {
+            "name":"about",
+            "icon":"",
+            "path":""
+        },
+        {
+            "name":"contact",
+            "icon":"",
+            "path":""
+        }
+    ]
+}
